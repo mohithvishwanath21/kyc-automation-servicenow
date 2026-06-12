@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c4eb37ab831183507c976260ceaad35b" label="Document" max_length="40" name="x_1908550_kyc_pr_0_document" type="collection">
+        <element label="Uploaded Date" max_length="255" name="uploaded_date" type="glide_date_time"/>
+        <element label="File Name" max_length="200" name="file_name" type="string"/>
+        <element choice="3" display="true" label="Document Type" max_length="40" name="document_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Financial Statement" sequence="2" value="financial_statement"/>
+                <element inactive_on_update="false" label="Address Proof" sequence="1" value="address_proof"/>
+                <element inactive_on_update="false" label="ID Proof" sequence="0" value="id_proof"/>
+            </choice>
+        </element>
+        <element choice="3" label="Verification Status" max_length="40" name="verification_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="Verified" sequence="1" value="verified"/>
+            </choice>
+        </element>
+        <element label="KYC Request" max_length="32" name="kyc_request" reference="x_1908550_kyc_pr_0_kyc_request" type="reference"/>
+        <index name="index">
+            <element name="kyc_request"/>
+        </index>
+    </element>
+</database>

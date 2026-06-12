@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-12 05:04:54</sys_created_on>
+        <sys_id>8a1657af83d943507c976260ceaad3c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1908550_kyc_pr_0_kyc_request.x_1908550_kyc_pr_0.kyc_compliance</sys_name>
+        <sys_package display_value="KYC Process Automation" source="x_1908550_kyc_pr_0">da43d72b83d943507c976260ceaad3ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KYC Process Automation">da43d72b83d943507c976260ceaad3ae</sys_scope>
+        <sys_security_acl display_value="x_1908550_kyc_pr_0_kyc_request">4a1657af83d943507c976260ceaad3c2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8a1657af83d943507c976260ceaad3c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-12 05:04:54</sys_updated_on>
+        <sys_user_role display_value="x_1908550_kyc_pr_0.kyc_compliance" name="x_1908550_kyc_pr_0.kyc_compliance">ca1657af83d943507c976260ceaad33e</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

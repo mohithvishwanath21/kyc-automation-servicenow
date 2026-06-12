@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5b3e73ef831183507c976260ceaad3b7" label="Risk Assessment" max_length="40" name="x_1908550_kyc_pr_0_risk_assessment" type="collection">
+        <element display="true" label="KYC Request" max_length="32" name="kyc_request" reference="x_1908550_kyc_pr_0_kyc_request" type="reference"/>
+        <element label="Points" max_length="40" name="points" type="integer"/>
+        <element label="Rule Applied" max_length="40" name="rule_applied" type="string"/>
+        <element label="Assessment Date" max_length="255" name="assessment_date" type="glide_date_time"/>
+        <element label="Risk Factor" max_length="40" name="risk_factor" type="string"/>
+        <index name="index">
+            <element name="kyc_request"/>
+        </index>
+    </element>
+</database>

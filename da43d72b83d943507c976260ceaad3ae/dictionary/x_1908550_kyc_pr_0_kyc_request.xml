@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="670653af83d943507c976260ceaad364" extends="task" label="KYC Request" max_length="40" name="x_1908550_kyc_pr_0_kyc_request" type="collection">
+        <element choice="3" label="Customer Type" max_length="40" name="customer_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Corporate" sequence="1" value="corporate"/>
+                <element inactive_on_update="false" label="Individual" sequence="0" value="individual"/>
+            </choice>
+        </element>
+        <element label="Country" max_length="100" name="country" type="string"/>
+        <element display="true" label="Risk Score" max_length="255" name="risk_score" type="integer"/>
+        <element choice="3" label="KYC Status" max_length="40" name="kyc_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Under Review" sequence="1" value="under_review"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Submitted" sequence="0" value="submitted"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+            </choice>
+        </element>
+        <element label="Customer Email" max_length="80" name="customer_email" type="string"/>
+        <element label="Customer Name" max_length="40" name="customer_name" type="string"/>
+    </element>
+</database>
